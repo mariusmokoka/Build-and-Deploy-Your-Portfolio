@@ -385,7 +385,7 @@ header {
 
 .my-work {
     background-color: var(--clr-dark);
-    color: var(--clr-light);
+    color: var(--clr-dark); /* changed from light to dark */
     text-align: center;    
 }
 
