@@ -7,15 +7,15 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-primary: 'Lora', serif;
+    --ff-secondary: 'Roboto Slab', serif;
     
-    --fw-reg: 300;
-    --fw-bold: 900;
+    --fw-reg: 400;
+    --fw-bold: 700;
     
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: #333;
+    --clr-dark: #fff;
+    --clr-accent: #f8333c;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -295,7 +295,11 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
+<<<<<<< HEAD
+    background-image: url(../img/services-bg.jpg);
+=======
     background-image: url(.../img/services-bg.jpg);
+>>>>>>> f3497a535f08e526a20b1edd363ca9b6a21ed0f0
     background-size: cover;
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
