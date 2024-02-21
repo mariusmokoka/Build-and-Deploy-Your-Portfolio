@@ -16,7 +16,7 @@
     --clr-light: #333;
     --clr-dark: #fff;
     --clr-accent: #f8333c;
-    --clr-lighter: #fff;
+    
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -295,10 +295,10 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(./img/services-bg.jpg);
+    background-image: url(../img/services-bg.jpg);
     background-size: cover;
     /* background-blend-mode: multiply; */
-    color: var(--clr-lighter);
+    color: var(--clr-light);
     text-align: center;
 }
 
@@ -384,8 +384,8 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: var(--clr-light);
-    color: var(--clr-dark); /* changed from light to dark */
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
     text-align: center;    
 }
 
